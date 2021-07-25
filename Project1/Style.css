@@ -1,33 +1,71 @@
-h1 {
-    margin-left: 150px;
-    }
-    form li {
-    list-style: none;
-    margin-bottom: 5px;
-    }
-    
-    form ul li label{
-    float: left;
-    clear: left;
-    width: 100px;
-    text-align: right;
-    margin-right: 10px;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
-    font-size:14px;
-    }
-    
-    form ul li input, select, span {
-    float: left;
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(48, 48, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container{
+    background-color: white;
+    width: 400px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.header{
+    background-color: rgb(201, 201, 201);
+    padding: 10px 20px;
+}
+
+.form{
+    padding: 20px 40px;
+}
+
+.form-control{
     margin-bottom: 10px;
-    }
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.form-control lable {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid rgb(220, 220, 247);
     
-    [type="submit"] {
-    clear: left;
-    margin: 20px 0 0 230px;
-    font-size:18px
-    }
-    
-    p {
-    margin-left: 70px;
-    font-weight: bold;
-    }
+}
+
+.form-control.success input{
+    border: 2px solid rgb(116, 224, 116);
+}
+
+.form-control.error input{
+    border: 2px solid rgb(209, 24, 24);
+}
+
+.form-control small {
+    position: absolute;
+    margin: 3px;
+    visibility: hidden;
+}
+
+button{
+    background-color: rgb(48,48,141);
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid rgb(220, 220, 247);
+    cursor: pointer;
+}

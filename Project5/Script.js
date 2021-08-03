@@ -81,7 +81,7 @@ function totalBalance() {
     // Create a Div for the balance
     const balanceElement = document.createElement('div');
     // Set the innerHTML for new div
-    balanceElement.innerHTML = `<h3>Total Balance:  $${formatNumberToDollar(balance)}</h3>`;
+    balanceElement.innerHTML = `<h3>Total Balance:$${formatNumberToDollar(balance)}</h3>`;
     // Append Balance in main element
     main.appendChild(balanceElement);
 }

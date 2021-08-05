@@ -20,7 +20,7 @@ function calculate() {
         //Update DOM with the exchange rate
         exchangeRate.innerHTML = `1 ${baseCode} = ${rate} ${targetCode}`;
         //Calculate the amount of target currency based on exchange rate
-        targetAmount.value =(sbaseAmount.value * rate).toFixed(2);
+        targetAmount.value =(baseAmount.value * rate).toFixed(2);
         
     })
 };

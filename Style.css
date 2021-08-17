@@ -47,7 +47,11 @@ a:link, a:visited {
     display: flex;
     
 }
-a:hover, a:active {
+a:active {
+    box-shadow: 2px 2px 2px #777;
+    transform: translateY(3px);
+}
+a:hover {
     background-color: #0B2027;
     color: white;
 }

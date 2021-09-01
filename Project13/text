@@ -1,0 +1,35 @@
+        <!-- Example card 1 -->
+        <div class="card active">
+            <div class="inside-card">
+            <!-- Front of card -->
+            <div class="card-front">
+                <p>Question 1</p>
+            </div>
+            <!-- Back of card -->
+            <div class="card-back">
+                <p>Answer 1</p>
+            </div>
+            </div>
+        </div>
+        <!-- Example card 2 -->
+        <div class="card">
+            <!-- Front of card -->
+            <div class="card-front">
+                <p>Question 2</p>
+            </div>
+            <!-- Back of card -->
+            <div class="card-back">
+                <p>Answer 2</p>
+            </div>
+        </div>
+        <!-- Example card 3 -->
+        <div class="card">
+            <!-- Front of card -->
+            <div class="card-front">
+                <p>Question 3</p>
+            </div>
+            <!-- Back of card -->
+            <div class="card-back">
+                <p>Answer 3</p>
+            </div>
+        </div>
